@@ -1,0 +1,55 @@
+img {
+  width: 100px;
+  border-radius: 30px;
+  object-fit: cover;
+  border: 2.6px solid rgb(216, 103, 103);
+  padding: 20px;
+  aspect-ratio: 3 / 2;
+}
+
+#container {
+  background-color: brown;
+  width: 580px;
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  height: 480px;
+  gap: 4px;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+a {
+  color: white;
+  margin-left: 20px;
+}
+
+#subgrid {
+display: grid;
+gap: 30px;
+place-content: center;
+justify-content: center;
+grid-template-columns: repeat(2, auto);
+}
+
+h1 {
+  text-align: center;
+  color: yellowgreen;
+  text-decoration: underline;
+}
+
+p {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  
+}
+
+.capa {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: blue;
+  margin: 30px;
+}
