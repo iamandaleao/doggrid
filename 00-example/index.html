@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Golden em Foco</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Golden em Foco</h1>
+
+    <div class="card-container">
+      <button class="card" onclick="abrirGaleria(1)">
+        <img src="images/capa01.jpg" alt="Golden 1" />
+        <p>Golden 1</p>
+      </button>
+
+      <button class="card" onclick="abrirGaleria(2)">
+        <img src="images/capa02.jpg" alt="Golden 2" />
+        <p>Golden 2</p>
+      </button>
+
+      <button class="card" onclick="abrirGaleria(3)">
+        <img src="images/capa03.jpg" alt="Golden 3" />
+        <p>Golden 3</p>
+      </button>
+
+      <button class="card" onclick="abrirGaleria(4)">
+        <img src="images/capa04.jpg" alt="Golden 4" />
+        <p>Golden 4</p>
+      </button>
+    </div>
+
+    <div id="galeria"></div>
+
+    <script>
+      // Mapeamento das imagens por galeria
+      const imagensPorGaleria = {
+        1: ["cp01.jpg", "cp02.jpg", "cp03.jpg"],
+        2: ["capa04.jpg", "capa05.jpg", "capa06.jpg"],
+        3: ["fogos01.jpg", "fogos02.jpg", "mont01.jpg"],
+        4: ["mont02.jpg", "natur01.jpg", "natur02.jpg"]
+      };
+
+      function abrirGaleria(numero) {
+        const galeria = document.getElementById("galeria");
+        let conteudo = "<h2>Fotos do Golden</h2><div class='fotos'>";
+
+        const imagens = imagensPorGaleria[numero];
+
+        if (!imagens) return;
+
+        // Repete o conjunto de imagens 3 vezes
+        const todasImagens = [...imagens, ...imagens, ...imagens];
+
+        todasImagens.forEach((nome) => {
+          conteudo += `<img src="images/${nome}" alt="${nome}">`;
+        });
+
+        conteudo += "</div>";
+        galeria.innerHTML = conteudo;
+      }
+    </script>
+  </body>
+</html>
+
