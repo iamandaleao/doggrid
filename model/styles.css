@@ -1,0 +1,22 @@
+
+img {
+  width: 190px; /* Define a largura da imagem */
+  height: 190px;  /* Define a altura da imagem */
+  border-radius: 8px; /* Arredonda os cantos da imagem */
+  object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+}
+h1 {
+  text-align: center;  /* Centraliza o texto do título */
+}
+#container {
+  max-width: 390px;  /* Define a largura máxima do container (ajuda a manter os itens agrupados) */
+  display: flex;  /* Ativa o modelo Flexbox */
+  flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+  gap: 10px; /* Espaçamento entre os elementos filhos */
+
+  justify-content: center; /* Centraliza os itens horizontalmente */
+  align-items: center;  /* Centraliza os itens verticalmente */
+  margin: 0 auto;  /* Centraliza o container horizontalmente */
+  text-align: center;  /* Centraliza texto interno, se houver */
+}
+
