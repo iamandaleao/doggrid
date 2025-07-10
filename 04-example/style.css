@@ -1,0 +1,22 @@
+h1 {
+  text-align: center;
+}
+
+img {
+  border-radius: 10px;
+  height: 190px;
+  width: 190px;
+  object-fit: cover;
+}
+
+#container {
+  display: flex;
+  gap: 9px;
+  max-width: 390px;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
