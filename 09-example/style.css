@@ -11,7 +11,7 @@ img {
   display: flex;
   flex-wrap: wrap;
   background-color: antiquewhite;
-  margin: 0 auto;
+  margin: 50px auto 0 auto; /* 50px topo, auto laterais, 0 base */
   justify-content: center;
   text-align: center;
   border-radius: 20px;
@@ -24,4 +24,12 @@ h1 {
 
 #container p {
   margin: 0px; 
+}
+
+#voltar {
+  position: absolute; /* para posicionar livremente */
+  top: 10px;          /* distância do topo */
+  left: 26px;         /* distância da esquerda */
+  font-size: 30px;    /* tamanho do texto */
+  /* pode adicionar mais estilos, como cor, padding, etc */
 }
