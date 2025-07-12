@@ -1,9 +1,8 @@
 img {
   width: 200px;
-  gap: 10px;
-  margin: 20px;
-  border-radius: 20px;
-  height: 150px;
+  margin: 20px 20px 0px 20px;
+  border-radius: 10px;
+  height: 130px;
   object-fit: cover;
 }
 
@@ -11,11 +10,18 @@ img {
   max-width: 600px;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
   background-color: antiquewhite;
   margin: 0 auto;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
 }
 
 h1 {
   text-align: center;
+}
+
+#container p {
+  margin: 0px; 
 }
