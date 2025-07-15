@@ -1,0 +1,29 @@
+img {
+  width: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  aspect-ratio: 30/15;
+}
+
+#container {
+  display: flex;
+  max-width: 600px;
+  min-height: 45vh;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 0 auto;
+  padding-top: 10px;
+  background-color: cadetblue;
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
