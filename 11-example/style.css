@@ -1,0 +1,14 @@
+img {
+  width: 200px;
+}
+
+#container {
+  background-color: cadetblue;
+  display: flex;
+  max-width: 600px;
+  min-height: 45vh;
+  border-radius: 15px;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
