@@ -1,0 +1,22 @@
+img {
+  width: 200px;
+  border-radius: 10px;
+}
+
+#container {
+  background-color: cadetblue;
+  max-width: 500px;
+  min-height: 45vh;
+  border-radius: 15px;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 60px auto 0;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+}
+
+h1 {
+  text-align: center;
+}
