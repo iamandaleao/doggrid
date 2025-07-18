@@ -24,7 +24,7 @@ Aprimorar minhas habilidades em HTML5 e CSS3, reforçando o entendimento sobre:
 - Flexbox  
 - Grid Layout  
 - Design Responsivo
-- 
+
 ## 🧠 Aprendizados
 
 - Diferenças práticas entre Flexbox e Grid
