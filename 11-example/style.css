@@ -1,14 +1,22 @@
 img {
   width: 200px;
+  border-radius: 10px;
 }
 
 #container {
   background-color: cadetblue;
   display: flex;
-  max-width: 600px;
+  max-width: 500px;
   min-height: 45vh;
   border-radius: 15px;
   justify-content: center;
   flex-wrap: wrap;
-  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+  margin: 60px auto 0;
+}
+
+h1 {
+  text-align: center;
 }
